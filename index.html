@@ -479,15 +479,37 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscription">
+          <p class="footer-subscription-text">Подпишитесь на рассылку</p>
+          <form class="subscription-client">
+            <label for="user-email" class="email-address"></label>
+            <input
+              class="input-email"
+              type="email"
+              name="email"
+              id="user-email"
+              placeholder="E-mail"
+            />
+            <button class="subscription-btn" type="submit">
+              <span class="subscription-btn-text">Подписаться</span>
+              <svg class="subscription-icon" width="24" height="24">
+                <use
+                  class="icon-send"
+                  href="./images/icons.svg#icon-icon-send"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="modal-button-close">
-            <svg class="modal-close-icon" width="18" height="18">
-              <use href="./images/symbol-defs.svg#icon-close-black-x"></use>
-             </svg>
+          <svg class="modal-close-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-close-black-x"></use>
+          </svg>
         </button>
       </div>
     </div>
