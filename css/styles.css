@@ -961,14 +961,27 @@ input [placeholder="E-mail"] {
     top: 29px;
     left: 12px;
 }
-
-/* input [placeholder="Введите текст"] { */
-    /* position: absolute;
-    top: 30px;
-    left: 16px; */
+.modal-checkbox {
+    display: block;
+        width: 425px;
+        height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+ 
+}
+.modal-checkbox-item {
+    display: block;
+    /* margin-left: 8.38px; */
+        font-size: 14px;
+        line-height: 1.71;    
+        letter-spacing: 0.03em;    
+        color: #757575;
 
 }
 
+.checkbox-input {
+    
+}
 
 
 
