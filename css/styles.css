@@ -578,6 +578,7 @@ body {
 .down-tel {
     margin-top: 9px;
 }
+
 /* footer-icon */
 
 .footer .container {
@@ -707,8 +708,6 @@ input [placeholder="E-mail"] {
     top: 13px;
     right: 28px;
 }
-
-
 
 /* Это стили для Порфолио */
 
@@ -884,16 +883,19 @@ input [placeholder="E-mail"] {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background:var(--hero-text-color);
-    cursor: pointer;    
+    cursor: pointer;     
+    transition: border-color 250ms var(--timing-function);
+                
 }
 .modal-close-icon {
     display: block;
     fill: var(--logo-studio-color);
+    transition: fill 250ms var(--timing-function);
 }
 
 .modal-button-close:hover,
 .modal-button-close:focus {
-    border: 1px solid var(--logo-web-color );
+    border-color: var(--logo-web-color );
 }
 .modal-button-close:hover .modal-close-icon {
     fill: var(--logo-web-color);
@@ -953,14 +955,18 @@ input [placeholder="E-mail"] {
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    transition: border-color 250ms var(--timing-function);
 }
 
 .modal-input-item:hover,
 .modal-input-item:focus  {
-    border: 1px solid var(--logo-web-color);
+    border-color: var(--logo-web-color);
 }
 
 .modal-input-item:hover + .modal-icon {
+    fill: var(--logo-web-color);
+}
+.modal-input-item:focus + .modal-icon {
     fill: var(--logo-web-color);
 }
 
@@ -980,7 +986,9 @@ input [placeholder="E-mail"] {
     position: absolute;
     top: 29px;
     left: 12px;
+    transition: fill 250ms var(--timing-function);
 }
+
 .modal-checkbox {
     position: relative;
     display: block;
@@ -989,7 +997,7 @@ input [placeholder="E-mail"] {
     height: 24px;
     margin-left: 49px;
     margin-right: auto;
-    margin-bottom: 22px;
+    margin-bottom: 21px;
 }
 .modal-checkbox-item {
     display: block;
