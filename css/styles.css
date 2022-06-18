@@ -891,11 +891,21 @@ input [placeholder="E-mail"] {
     fill: var(--logo-studio-color);
 }
 
+.modal-button-close:hover,
+.modal-button-close:focus {
+    border: 1px solid var(--logo-web-color );
+}
+.modal-button-close:hover .modal-close-icon {
+    fill: var(--logo-web-color);
+}
+.modal-button-close:focus .modal-close-icon {
+    fill: var(--logo-web-color);
+}
+
 .modal-container {
     display: block;
     width: 448px;
-    margin: 40px auto 20px;
-    outline: 1px solid tomato;
+    margin: 40px auto 18px;
 }
 
 .modal-text {
@@ -935,6 +945,8 @@ input [placeholder="E-mail"] {
 }
 
 .modal-input-item {
+    display: block;
+    padding: 12px 0px 12px 42px;
     box-sizing: border-box;
 
     width: 100%;    
@@ -943,6 +955,15 @@ input [placeholder="E-mail"] {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
+.modal-input-item:hover,
+.modal-input-item:focus  {
+    border: 1px solid var(--logo-web-color);
+}
+.modal-input-item:hover + .modal-icon {
+    fill: var(--logo-web-color);
+}
+
+
 
  .coment .modal-input-item {
         display: block;
@@ -962,25 +983,76 @@ input [placeholder="E-mail"] {
     left: 12px;
 }
 .modal-checkbox {
+    position: relative;
     display: block;
+    
         width: 425px;
         height: 24px;
-        margin-left: auto;
+        margin-left: 49px;
         margin-right: auto;
- 
+        margin-bottom: 22px;
 }
 .modal-checkbox-item {
     display: block;
-    /* margin-left: 8.38px; */
+    padding-left: 20.38px;
         font-size: 14px;
         line-height: 1.71;    
         letter-spacing: 0.03em;    
-        color: #757575;
-
+        color: var(--brand-text-color);
+}
+.modal-dogovor-link {
+    color: var(--logo-web-color) ;
 }
 
-.checkbox-input {
+.check-input {
+    -webkit-appearance: none;
+}
+.check-icon {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.check-input:focus ~ .check-icon {
+    fill: var(--logo-web-color);
+}
+
+.check-input:checked ~ .check-icon {
+    fill: none;
+    background-image: url(../images/icon/icon\ check.svg);
+}
+
+
+
+.modal-send-btn {
+    display: block;
+/* position: absolute; */
+margin-left: auto;
+margin-right: auto;
+/* margin-bottom: 40px; */
+    width: 200px;
+    height: 50px;
+
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+.modal-btn-text {
+    /* position: absolute; */
+        width: 89px;
+        height: 30px;
     
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+    
+        /* display: flex; */
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
 }
 
 
