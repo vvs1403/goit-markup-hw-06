@@ -917,20 +917,19 @@ input [placeholder="E-mail"] {
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;    
     color: var(--accent-text-color);
 }
 
 .modal-input {
     position: relative;
     margin-bottom: 10px;
-
 }
+
 .coment {
     margin-bottom: 0;
-
 }
+
 .modal-label-item {
     display: block;
     margin-bottom: 4px;
@@ -955,26 +954,26 @@ input [placeholder="E-mail"] {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
+
 .modal-input-item:hover,
 .modal-input-item:focus  {
     border: 1px solid var(--logo-web-color);
 }
+
 .modal-input-item:hover + .modal-icon {
     fill: var(--logo-web-color);
 }
 
-
-
- .coment .modal-input-item {
-        display: block;
+.coment .modal-input-item {
+    display: block;
     height: 138px;
-
+    top: 0;
     padding: 12px 16px;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.01em;    
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;    
     color: rgba(117, 117, 117, 0.5);
-
+    resize: none;
 }
 
 .modal-icon {
@@ -986,20 +985,21 @@ input [placeholder="E-mail"] {
     position: relative;
     display: block;
     
-        width: 425px;
-        height: 24px;
-        margin-left: 49px;
-        margin-right: auto;
-        margin-bottom: 22px;
+    width: 425px;
+    height: 24px;
+    margin-left: 49px;
+    margin-right: auto;
+    margin-bottom: 22px;
 }
 .modal-checkbox-item {
     display: block;
     padding-left: 20.38px;
-        font-size: 14px;
-        line-height: 1.71;    
-        letter-spacing: 0.03em;    
-        color: var(--brand-text-color);
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;    
+    color: var(--brand-text-color);
 }
+
 .modal-dogovor-link {
     color: var(--logo-web-color) ;
 }
@@ -1007,11 +1007,13 @@ input [placeholder="E-mail"] {
 .check-input {
     -webkit-appearance: none;
 }
+
 .check-icon {
     position: absolute;
     left: 0;
     top: 4px;
 }
+
 .check-input:focus ~ .check-icon {
     fill: var(--logo-web-color);
 }
@@ -1021,38 +1023,30 @@ input [placeholder="E-mail"] {
     background-image: url(../images/icon/icon\ check.svg);
 }
 
-
-
 .modal-send-btn {
     display: block;
-/* position: absolute; */
-margin-left: auto;
-margin-right: auto;
-/* margin-bottom: 40px; */
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 50px;
 
-    background: #188CE8;
+    background: var(--hero-btn-bg-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
     cursor: pointer;
 }
+
 .modal-btn-text {
-    /* position: absolute; */
-        width: 89px;
-        height: 30px;
-    
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-    
-        /* display: flex; */
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-    
-        color: #FFFFFF;
+    width: 89px;
+    height: 30px;    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: var(--hero-text-color);
 }
 
 
