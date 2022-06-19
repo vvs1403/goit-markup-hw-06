@@ -371,24 +371,27 @@
         </div>
         <div class="footer-subscription">
           <p class="footer-subscription-text">Подпишитесь на рассылку</p>
-          <form class="subscription-client">
-            <label for="user-email" class="email-address"></label>
-            <input
-              class="input-email"
-              type="email"
-              name="email"
-              id="user-email"
-              placeholder="E-mail"
-            />
-            <button class="subscription-btn" type="submit">
-              <span class="subscription-btn-text">Подписаться</span>
-              <svg class="subscription-icon" width="24" height="24">
-                <use
-                  class="icon-send"
-                  href="./images/icons.svg#icon-icon-send"
-                ></use>
-              </svg>
-            </button>
+          <form>
+            <div class="subscription-client">
+              <label for="user-email" class="email-address"></label>
+              <input
+                class="input-email"
+                type="email"
+                name="email"
+                id="user-email"
+                placeholder="E-mail"
+                required
+              />
+              <button class="subscription-btn" type="submit">
+                <span class="subscription-btn-text">Подписаться</span>
+                <svg class="subscription-icon" width="24" height="24">
+                  <use
+                    class="icon-send"
+                    href="./images/icons.svg#icon-icon-send"
+                  ></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>

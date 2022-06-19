@@ -661,6 +661,7 @@ body {
     padding-left: 16px;
     width: 358px;
     height: 50px;
+    color:var(--hero-text-color);
     
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -865,6 +866,7 @@ body {
     background-color: var(--hero-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px;
 }
 
 .modal-button-close {
@@ -901,12 +903,6 @@ body {
     fill: var(--logo-web-color);
 }
 
-.modal-container {
-    display: block;
-    width: 448px;
-    margin: 40px auto 18px;
-}
-
 .modal-text {
     width: 448px;
     height: 23px;
@@ -926,7 +922,7 @@ body {
 }
 
 .coment {
-    margin-bottom: 0;
+    margin-bottom: 18px;
 }
 
 .modal-label-item {
@@ -969,7 +965,7 @@ body {
 
 .coment .modal-input-item {
     display: block;
-    height: 138px;
+    height: 120px;
     padding: 12px 16px;
     font-size: 12px;
     line-height: 1.17;
@@ -998,9 +994,9 @@ body {
     
     width: 425px;
     height: 24px;
-    margin-left: 49px;
+    margin-left: 9px;
     margin-right: auto;
-    margin-bottom: 21px;
+    margin-bottom: 32px;
 }
 .modal-checkbox-item {
     display: block;
@@ -1041,16 +1037,6 @@ body {
     width: 200px;
     height: 50px;
 
-    background: var(--hero-btn-bg-hover);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: 0;
-    cursor: pointer;
-}
-
-.modal-btn-text {
-    width: 89px;
-    height: 30px;    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -1058,7 +1044,14 @@ body {
     text-align: center;
     letter-spacing: 0.06em;    
     color: var(--hero-text-color);
+
+    background: var(--hero-btn-bg-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
 }
+
 
 
 
