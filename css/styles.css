@@ -667,10 +667,7 @@ body {
     background-color: var(--hero-bg-color);
 }
 
-input [placeholder="E-mail"] {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 16px;
+.input-email::placeholder {
     width: 47px;
     height: 20px;    
     font-size: 16px;
